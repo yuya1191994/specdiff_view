@@ -9,3 +9,5 @@ services:
     volumes:
       - ./src:/app
     command: sh -c "npm run dev"
+    environment:
+      - WATCHPACK_POLLING=true
